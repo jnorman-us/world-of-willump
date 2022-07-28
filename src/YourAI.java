@@ -9,7 +9,7 @@ public class YourAI extends ClientAI {
         try {
             new YourAI();
         } catch (IOException e) {
-            e.printStackTrace();
+            // e.printStackTrace();
         }
     }
 
@@ -24,10 +24,11 @@ public class YourAI extends ClientAI {
 
     @Override
     public Action think() {
+        // logic here for every round
         System.out.println(getPosition());
-        System.out.println(isShiny());
         System.out.println(isSmelly());
         System.out.println(isWindy());
+        System.out.println(isShiny());
         return Action.MOVE_DOWN;
     }
 

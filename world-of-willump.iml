@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/WoWClientLib.jar!/" />
+          <root url="jar://$MODULE_DIR$/WoWServer.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
